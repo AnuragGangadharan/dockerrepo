@@ -10,7 +10,7 @@ jobs:
       - name: Code checkout
         uses: actions/checkout@v4
       - name: Setup terraform
-        uses: harshicorp/setup-terraform@v3
+        uses: hashicorp/setup-terraform@v3
       - name: Terraform init, Plan
         run: |
           terraform init
