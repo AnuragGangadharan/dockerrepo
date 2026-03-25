@@ -13,10 +13,10 @@ jobs:
         uses: harshicorp/setup-terraform@v3
       - name: Terraform init, Plan
         run: |
-          terrafrom init
+          terraform init
           terraform plan
-       -name: Terrafrom apply
-         run terrafrom apply -auto-approve
+       -name: Terraform apply
+         run terraform apply -auto-approve
         
         
       
