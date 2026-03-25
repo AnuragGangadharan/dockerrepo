@@ -3,7 +3,7 @@ provider "aws" {
   
 }
 resource "aws_iam_user" "lb" {
-  name = "loadbalancer"
+  name = "loadbalancer02"
   path = "/system/"
 
   tags = {
